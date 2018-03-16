@@ -1,19 +1,19 @@
-﻿using System.Web.Http.Results;
-using AutoMapper;
+﻿using AutoMapper;
 using NSubstitute;
 using SampleService.DataAccess;
 using SampleService.Logic.Notes;
 using SampleService.WebApi.Notes;
 using Shouldly;
+using System.Web.Http.Results;
 using Xunit;
 
 namespace SampleService.Tests.WebApi.Notes
 {
     public class NotesControllerTests
     {
-        private INotesLogic _notesLogic;
+        private readonly INotesLogic _notesLogic;
 
-        private NotesController _controller;
+        private readonly NotesController _controller;
 
         public NotesControllerTests()
         {
