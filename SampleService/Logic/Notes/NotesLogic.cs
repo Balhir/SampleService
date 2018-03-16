@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using SampleService.DataAccess;
 using System.Linq;
-using SampleService.DataAccess;
 
 namespace SampleService.Logic.Notes
 {

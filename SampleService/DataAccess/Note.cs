@@ -9,9 +9,7 @@
 
 namespace SampleService.DataAccess
 {
-    using System;
-    using System.Collections.Generic;
-    
+
     public partial class Note
     {
         public int Id { get; set; }

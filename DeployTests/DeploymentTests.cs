@@ -1,5 +1,5 @@
-﻿using System.Configuration;
-using Shouldly;
+﻿using Shouldly;
+using System.Configuration;
 using Xunit;
 
 namespace DeployTests
