@@ -49,8 +49,7 @@ namespace SampleService.Logic.Notes
                     db.Database.ExecuteSqlCommand("SELECT 1");
                 }
             }
-            catch
-            {
+            catch {
                 return false;
             }
 
