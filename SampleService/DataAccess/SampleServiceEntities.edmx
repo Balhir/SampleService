@@ -11,6 +11,7 @@
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Content" Type="nvarchar" MaxLength="1000" Nullable="false" />
+          <Property Name="Inserted" Type="datetime" />
         </EntityType>
         <EntityContainer Name="SampleServiceModelStoreContainer">
           <EntitySet Name="Notes" EntityType="Self.Notes" Schema="dbo" store:Type="Tables" />
@@ -25,6 +26,7 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Content" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Inserted" Type="DateTime" Precision="3" />
         </EntityType>
         <EntityContainer Name="SampleServiceEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Notes" EntityType="Self.Note" />
@@ -38,6 +40,7 @@
           <EntitySetMapping Name="Notes">
             <EntityTypeMapping TypeName="SampleServiceModel.Note">
               <MappingFragment StoreEntitySet="Notes">
+                <ScalarProperty Name="Inserted" ColumnName="Inserted" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Content" ColumnName="Content" />
               </MappingFragment>
