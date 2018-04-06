@@ -1,10 +1,10 @@
-﻿using System.Configuration;
+﻿using SampleService.Logic.Notes;
+using System.Configuration;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Web.Http;
 using System.Web.Http.Results;
-using SampleService.Logic.Notes;
 
 namespace SampleService.WebApi.Status
 {
@@ -33,7 +33,7 @@ namespace SampleService.WebApi.Status
                 return InternalServerError();
             }
 
-            return Ok("All good");
+            return Ok("All is working fine!");
         }
 
         [HttpGet]
