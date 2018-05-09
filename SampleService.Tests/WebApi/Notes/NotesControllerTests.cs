@@ -1,10 +1,10 @@
-﻿using System.Web.Http.Results;
-using AutoMapper;
+﻿using AutoMapper;
 using NSubstitute;
 using SampleService.DataAccess;
 using SampleService.Logic.Notes;
 using SampleService.WebApi.Notes;
 using Shouldly;
+using System.Web.Http.Results;
 using Xunit;
 
 namespace SampleService.Tests.WebApi.Notes

@@ -9,10 +9,9 @@
 
 namespace SampleService.DataAccess
 {
-    using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+
     public partial class SampleServiceEntities : DbContext
     {
         public SampleServiceEntities()

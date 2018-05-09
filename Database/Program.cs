@@ -1,7 +1,7 @@
-﻿using System;
+﻿using DbUp;
+using System;
 using System.Configuration;
 using System.Reflection;
-using DbUp;
 
 namespace Database
 {

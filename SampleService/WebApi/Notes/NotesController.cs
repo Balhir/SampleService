@@ -1,9 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
-using AutoMapper;
+﻿using AutoMapper;
 using SampleService.DataAccess;
 using SampleService.Logic.Notes;
+using System.Web.Http;
 
 namespace SampleService.WebApi.Notes
 {

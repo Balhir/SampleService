@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using Shouldly;
+using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
-using Shouldly;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 

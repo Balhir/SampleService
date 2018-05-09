@@ -1,6 +1,6 @@
-﻿using System.Configuration;
+﻿using SampleService.DataAccess;
+using System.Configuration;
 using System.Web.Http;
-using SampleService.DataAccess;
 
 namespace SampleService.WebApi.Testing
 {
